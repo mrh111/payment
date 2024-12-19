@@ -1,6 +1,6 @@
 {
     "name": "mrh111/payment",
-    "description": "desc",
+    "description": "alipay、wxpay、sxypay、cmbank",
     "type": "library",
     "license": "MIT",
     "autoload": {
