@@ -1,0 +1,27 @@
+{
+    "name": "mrh111/payment",
+    "description": "desc",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mrh111\\Payment\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "john",
+            "email": "john@126.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "ext-bcmath": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "require-dev": {
+        "endroid/qrcode": "~1.9",
+        "codeception/codeception": "*"
+    }
+}
